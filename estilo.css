@@ -5,9 +5,10 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     background-color: #f4f4f4;
-    color: #333;
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
@@ -46,7 +47,8 @@ header h1 {
 }
 
 .search-bar {
-    display: none; /* Oculto por defecto */
+    display: none;
+    /* Oculto por defecto */
     position: absolute;
     top: 100%;
     left: 0;
@@ -93,36 +95,41 @@ nav ul li a {
     transition: background-color 0.3s ease;
 }
 
-nav ul li:hover > a {
+nav ul li a.active {
+    background-color: #bd315e; /* Color de fondo para la sección activa */
+    border-radius: 0px;
+}
+
+nav ul li:hover>a {
     background-color: #bd315e;
-    border-radius: 5px;
+    border-radius: 0px;
 }
 
 /* Menú desplegable */
-nav .dropdown {
+nav .menu-desplegable {
     display: none;
     position: absolute;
     background-color: #bd315e;
     padding: 10px;
-    top: calc(100% + 26px); /* Se muestra justo debajo del header */
-    left: 0;
+    top: calc(100% + 23px);
+    /* Se muestra justo debajo del header */
+    left: -40px;
     width: 150px;
 }
-
-nav ul li:hover .dropdown {
+nav ul li:hover .menu-desplegable {
     display: block;
 }
 
-nav .dropdown li a {
+nav .menu-desplegable li a {
     color: white;
     padding: 10px;
     display: block;
     transition: background-color 0.3s ease;
 }
 
-nav .dropdown li a:hover {
+nav .menu-desplegable li a:hover {
     background-color: #38494b5c;
-    border-radius: 5px;
+    border-radius: 0px;
 }
 
 main {
@@ -150,7 +157,8 @@ main {
     height: auto;
 }
 
-button.prev, button.next {
+button.prev,
+button.next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);

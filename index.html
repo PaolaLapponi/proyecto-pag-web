@@ -1,51 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Moderna</title>
     <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Para el icono de la lupa -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Para el icono de la lupa -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <!-- Header con logo, título, barra de búsqueda y menú -->
     <header>
         <div class="logo-title">
-            <img src="logo.png" alt="Logo" class="logo">
-            <h1>Página Principal</h1>
+            <img src="recursos/Reportes Quilmeños.png" alt="Logo" class="logo">
+            <h1>REPORTES QUILMEÑOS</h1>
         </div>
         <div class="search-icon" onclick="toggleSearch()">
             <i class="fas fa-search"></i>
         </div>
         <nav>
             <ul>
-                <li><a href="#">Sección 1</a>
-                    <ul class="dropdown">
+                <li><a href="#" onclick="selectSection(this)">Sección 1</a>
+                    <ul class="menu-desplegable">
                         <li><a href="#">Subsección</a></li>
                         <li><a href="#">Subsección</a></li>
                         <li><a href="#">Subsección</a></li>
                         <li><a href="#">Subsección</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Sección 2</a>
-                    <ul class="dropdown">
+                <li><a href="#" onclick="selectSection(this)">Sección 2</a>
+                    <ul class="menu-desplegable">
                         <li><a href="#">Subsección</a></li>
                         <li><a href="#">Subsección</a></li>
                         <li><a href="#">Subsección</a></li>
                         <li><a href="#">Subsección</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Sección 3</a>
-                    <ul class="dropdown">
+                <li><a href="#" onclick="selectSection(this)">Sección 3</a>
+                    <ul class="menu-desplegable">
                         <li><a href="#">Subsección</a></li>
                         <li><a href="#">Subsección</a></li>
                         <li><a href="#">Subsección</a></li>
                         <li><a href="#">Subsección</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Sección 4</a>
-                    <ul class="dropdown">
+                <li><a href="#" onclick="selectSection(this)">Sección 4</a>
+                    <ul class="menu-desplegable">
                         <li><a href="#">Subsección</a></li>
                         <li><a href="#">Subsección</a></li>
                         <li><a href="#">Subsección</a></li>
@@ -84,4 +91,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>

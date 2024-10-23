@@ -7,7 +7,6 @@ function toggleSearch() {
         searchBar.style.display = 'block';
     }
 }
-
 // Función para realizar la búsqueda (puedes personalizarla)
 function search() {
     var query = document.getElementById('search-input').value;
