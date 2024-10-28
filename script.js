@@ -34,3 +34,34 @@ function updateCarousel() {
 
 // Carrusel automático
 setInterval(showNextImage, 5000);
+
+// Función para manejar el submenú al pasar el mouse sobre la sección
+function menuDesplegable() {
+    const menuItems = document.querySelectorAll('nav ul li');
+
+    menuItems.forEach(item => {
+        const menuDesplegable = item.querySelector('.menu-desplegable');
+
+        item.addEventListener('mouseover', () => {
+            if (menuDesplegable) menuDesplegable.style.display = 'block';
+        });
+
+        item.addEventListener('mouseleave', () => {
+            if (menuDesplegable) menuDesplegable.style.display = 'none';
+        });
+
+        // También asegurarse de que el menuDesplegable desaparezca al salir del mismo
+        if (menuDesplegable) {
+            menuDesplegable.addEventListener('mouseleave', () => {
+                menuDesplegable.style.display = 'none';
+            });
+
+            menuDesplegable.addEventListener('mouseover', () => {
+                menuDesplegable.style.display = 'block';
+            });
+        }
+    });
+}
+
+// Ejecutar la configuración al cargar la página
+document.addEventListener('DOMContentLoaded', menuDesplegable);

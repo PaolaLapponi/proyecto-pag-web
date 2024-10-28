@@ -116,6 +116,7 @@ nav .menu-desplegable {
     /* Se muestra justo debajo del header */
     left: -40px;
     width: 150px;
+    z-index: 1;
 }
 nav ul li:hover .menu-desplegable {
     display: block;
