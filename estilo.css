@@ -7,7 +7,6 @@
 body {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
     background-color: #f4f4f4;
     display: grid;
@@ -20,35 +19,44 @@ header {
     display: grid;
     grid-template-columns: 1fr auto 2fr;
     align-items: center;
-    background-color: #1d1a2c;
+    background-color: #290000;
     color: white;
-    padding: 10px 20px;
+    padding: 0px 0px;
     gap: 20px;
     position: fixed;
     z-index: 1000;
     width: 100vw;
+
 
 }
 
 .logo-title {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
 }
 
 header h1 {
-    font-size: 1.8rem;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 0px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .search-icon {
     justify-self: right;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     cursor: pointer;
+    margin-left: 200px;
 }
 
 .search-bar {
@@ -58,23 +66,24 @@ header h1 {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #1d1a2c;
+    background-color: #290000;
     padding: 10px;
     z-index: 1;
 }
 
 .search-bar input {
     width: 80%;
-    padding: 10px;
+    height: 25px;
+    padding: 5px;
     border: none;
     border-radius: 5px;
     margin-right: 10px;
 }
 
 .search-bar button {
-    padding: 10px 20px;
+    padding: 3px 20px;
     border: none;
-    background-color: #41357a64;
+    background-color: #5a0c0c;
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -85,41 +94,47 @@ nav ul {
     display: flex;
     justify-content: space-around;
     gap: 0px;
+    margin-right: 30px;
 }
 
 nav ul li {
     position: relative;
-    margin: 0;
+    margin-top: 15px;
     text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    font-size: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
     transition: background-color 0.3s ease;
 }
 
 nav ul li:hover>a {
-    background-color: #2d2973b3;
-    border-radius: 0px;
+    background-color: #732929cf;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 }
 
 /* Menú desplegable */
 nav .menu-desplegable {
     display: none;
     position: absolute;
-    background-color: #40357a77;
+    background-color: #7a35359f;
     padding: 10px;
-    top: calc(100% + 10px);
+    top: calc(100% + 2px);
     /* Se muestra justo debajo del header */
-    width: 157px;
+    width: 136px;
     z-index: 1;
-    border-radius: 0px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 
 nav ul li:hover .menu-desplegable {
@@ -128,14 +143,18 @@ nav ul li:hover .menu-desplegable {
 
 nav .menu-desplegable li a {
     color: white;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     display: block;
     transition: background-color 0.3s ease;
+    border-radius: 3px;
 }
 
 nav .menu-desplegable li a:hover {
-    background-color: #163539ac;
-    border-radius: 0px;
+    background-color: #391616ac;
+    border-radius: 3px;
 }
 
 main {
@@ -146,61 +165,40 @@ main {
     height: 100%;
     grid-template-columns: 1;
     grid-template-rows: 2;
-    background-color: #2a273a;
+    background-color: #1f0404;
 }
 
-.carousel {
-    position: relative;
-    width: 99vw;
-    overflow: hidden;
+/* //Carrousel// */
+.carousel-inner, .carousel-item {
+    width: 100vw;
     height: 48vw;
-
 }
-
-.carousel-images {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+.carousel-caption h1 {
+    font-family: "DM Serif Text", serif;
+    font-size: 120px;
 }
-
-.carousel-images img {
-    width: 100%;
-    height: auto;
+.carousel-caption p {
+    font-style: italic;
+    font-size: 50px;
+    margin-bottom: 100px;
 }
-
-button.prev,
-button.next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 24px;
-}
-
-button.prev {
-    left: 10px;
-}
-
-button.next {
-    right: 10px;
-}
-
 .news {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 12px;
 }
 
 .news-item {
-    background-color: #2a273a;
+    background-color: #1f0404;
+    display: grid;
     padding: 10px;
     text-align: center;
     transition: transform 0.3s ease;
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
 }
 
 .news-item:hover {
@@ -216,30 +214,36 @@ button.next {
 }
 
 div>a {
-    color: rgb(159, 197, 243);
+    color: rgb(199, 199, 199);
     font-size: 25px;
+    text-decoration: none;
 }
 
 .link-noticia:hover {
-    color: rgb(113, 184, 255)
+    color: rgb(255, 113, 113)
 }
 
 div>p {
     color: cornsilk;
+    font-family:'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 15px;
 }
 
 div>p>a {
-    color: rgb(0, 115, 255);
+    color: rgb(170, 4, 73);
 }
 
 div>p>a:hover {
-    color: rgb(113, 184, 255);
+    color: rgb(255, 113, 113);
 }
 
 footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    background-color: #1a182a;
+    background-color: #2b1010;
     color: white;
     padding: 15px;
 }
@@ -251,8 +255,11 @@ footer {
 .footer-section a {
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 15px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .footer-section a:hover {
-    color: rgb(113, 184, 255)
+    color: rgb(255, 113, 113)
