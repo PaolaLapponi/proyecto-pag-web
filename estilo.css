@@ -122,7 +122,15 @@ nav ul li:hover>a {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
-
+#seccion1 {
+    padding-left: 30px;
+    padding-right: 33px;
+}
+#seccion1:hover {
+    background-color: #732929cf;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
 /* Menú desplegable */
 nav .menu-desplegable {
     display: none;
