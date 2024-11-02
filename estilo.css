@@ -220,10 +220,13 @@ main {
     margin-bottom: 5px;
     border-radius: 1mm;
 }
-
-div>a {
-    color: rgb(199, 199, 199);
-    font-size: 25px;
+.news-item h2 {
+    text-align: left;
+    font-size: 20px;
+}
+.link-noticia {
+    color: rgb(235, 0, 0);
+    font-size: 30px;
     text-decoration: none;
 }
 
