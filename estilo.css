@@ -61,7 +61,7 @@ header h1 {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #290000;
+    background-color: #7c0000f1;
     padding: 10px;
     z-index: 1;
 }
@@ -78,7 +78,7 @@ header h1 {
 .search-bar button {
     padding: 3px 20px;
     border: none;
-    background-color: #5a0c0c;
+    background-color: #9f0101;
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -197,9 +197,11 @@ main {
     font-size: 120px;
 }
 .carousel-caption p {
-    font-style: italic;
     font-size: 50px;
     margin-bottom: 100px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: italic;
 }
 .news {
     display: grid;
@@ -245,10 +247,9 @@ main {
     color: rgb(103 0 0)
 }
 
-div>p {
+.parrafo-por {
     color: rgb(0, 0, 0);
     font-family:'Times New Roman', Times, serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: italic;
     font-size: 15px;
