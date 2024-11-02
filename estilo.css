@@ -1,14 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    background-color: #f4f4f4;
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
@@ -19,7 +14,7 @@ header {
     display: grid;
     grid-template-columns: 1fr auto 2fr;
     align-items: center;
-    background-color: #290000;
+    background-color: #7c0000;
     color: white;
     padding: 0px 0px;
     gap: 20px;
@@ -118,24 +113,43 @@ nav ul li a {
 }
 
 nav ul li:hover>a {
-    background-color: #732929cf;
+    background-color: #9f0000cf;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
 #seccion1 {
     padding-left: 30px;
-    padding-right: 33px;
+    padding-right: 34px;
 }
 #seccion1:hover {
-    background-color: #732929cf;
+    background-color: #9f0000cf;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
+#seccion2 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#seccion2:hover {
+    background-color: #9f0000cf;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+#seccion3 {
+    padding-left: 30px;
+    padding-right: 30.5px;
+}
+#seccion3:hover {
+    background-color: #9f0000cf;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
 /* Menú desplegable */
 nav .menu-desplegable {
     display: none;
     position: absolute;
-    background-color: #7a35359f;
+    background-color: #9f0000cf;
     padding: 10px;
     top: calc(100% + 2px);
     /* Se muestra justo debajo del header */
@@ -169,11 +183,8 @@ main {
     display: grid;
     justify-content: center;
     align-items: center;
-    background-color: #eaeaea;
     height: 100%;
-    grid-template-columns: 1;
-    grid-template-rows: 2;
-    background-color: #1f0404;
+    background-color: #cecece;
 }
 
 /* //Carrousel// */
@@ -200,7 +211,7 @@ main {
 }
 
 .news-item {
-    background-color: #1f0404;
+    background-color: #cecece;
     display: grid;
     padding: 10px;
     text-align: center;
@@ -231,11 +242,11 @@ main {
 }
 
 .link-noticia:hover {
-    color: rgb(255, 113, 113)
+    color: rgb(103 0 0)
 }
 
 div>p {
-    color: cornsilk;
+    color: rgb(0, 0, 0);
     font-family:'Times New Roman', Times, serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -244,17 +255,17 @@ div>p {
 }
 
 div>p>a {
-    color: rgb(170, 4, 73);
+    color: rgb(180 0 0);
 }
 
 div>p>a:hover {
-    color: rgb(255, 113, 113);
+    color:#7c0000;
 }
 
 footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    background-color: #2b1010;
+    background-color: #212121;
     color: white;
     padding: 15px;
 }
@@ -273,4 +284,4 @@ footer {
 }
 
 .footer-section a:hover {
-    color: rgb(255, 113, 113)
+    color: rgb(179, 0, 0)
