@@ -51,7 +51,7 @@ header h1 {
     justify-self: right;
     font-size: 1.3rem;
     cursor: pointer;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .search-bar {
@@ -78,7 +78,7 @@ header h1 {
 .search-bar button {
     padding: 3px 20px;
     border: none;
-    background-color: #9f0101;
+    background-color: gi#5a0000;
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -121,39 +121,27 @@ nav ul li:hover>a {
     padding-left: 30px;
     padding-right: 34px;
 }
-#seccion1:hover {
-    background-color: #9f0000cf;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-}
 #seccion2 {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-#seccion2:hover {
-    background-color: #9f0000cf;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    padding-left: 42px;
+    padding-right: 42.52px;
 }
 #seccion3 {
-    padding-left: 30px;
-    padding-right: 30.5px;
+    padding-left: 54px;
+    padding-right: 54px;
 }
-#seccion3:hover {
-    background-color: #9f0000cf;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+#seccion4{
+    padding-left: 50px;
+    padding-right: 49px;
 }
-
 /* Menú desplegable */
 nav .menu-desplegable {
     display: none;
     position: absolute;
     background-color: #9f0000cf;
     padding: 10px;
-    top: calc(100% + 2px);
+    top: calc(100% + 3px);
     /* Se muestra justo debajo del header */
-    width: 136px;
+    width: 155px;
     z-index: 1;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -175,7 +163,7 @@ nav .menu-desplegable li a {
 }
 
 nav .menu-desplegable li a:hover {
-    background-color: #391616ac;
+    background-color: #141313ae;
     border-radius: 3px;
 }
 
