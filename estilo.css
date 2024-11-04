@@ -116,22 +116,27 @@ nav ul li:hover>a {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
+
 #seccion1 {
-    padding-left: 30px;
-    padding-right: 34px;
+    padding-left: 32px;
+    padding-right: 31px;
 }
+
 #seccion2 {
     padding-left: 42px;
-    padding-right: 42.52px;
+    padding-right: 42px;
 }
+
 #seccion3 {
-    padding-left: 54px;
+    padding-left: 53px;
     padding-right: 54px;
 }
-#seccion4{
+
+#seccion4 {
     padding-left: 50px;
     padding-right: 49px;
 }
+
 /* Menú desplegable */
 nav .menu-desplegable {
     display: none;
@@ -140,7 +145,7 @@ nav .menu-desplegable {
     padding: 10px;
     top: calc(100% + 3px);
     /* Se muestra justo debajo del header */
-    width: 155px;
+    width: 157px;
     z-index: 1;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -175,30 +180,40 @@ main {
 }
 
 /* //Carrousel// */
-.carousel-inner, .carousel-item {
+.carousel-inner,
+.carousel-item {
     width: 100vw;
     height: 48vw;
 }
+
 .carousel-caption h1 {
     font-family: "DM Serif Text", serif;
     font-size: 100px;
 }
+
 .carousel-caption p {
     font-size: 50px;
     margin-bottom: 100px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     font-style: italic;
 }
+
+/* #carouselExampleCaptions {
+    height: 100vw;
+} */
+
 #slide-h1-1 {
     font-size: 100px;
     color: #d8b100;
 }
+
 #slide-p-1 {
     color: #d8b100;
     text-align: right;
     margin-bottom: 25px;
 }
+
 .news {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -209,19 +224,27 @@ main {
 }
 
 .news-item {
-    background-color: #cecece;
+    background-color: #bdbcbc;
     display: grid;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     transition: transform 0.3s ease;
     font-family: "DM Serif Text", serif;
     font-style: normal;
+    margin: 20px;
+    border-radius: 4px;
 }
 
 .news-item:hover {
     transform: scale(1.05);
 }
-
+.etiqueta-distintiva {
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1a1a1a;
+    font-size: 12px;
+    padding-top: 5px;
+}
 .news-item img {
     width: 300px;
     height: 200px;
@@ -229,34 +252,38 @@ main {
     margin-bottom: 5px;
     border-radius: 1mm;
 }
+
 .news-item h2 {
     text-align: left;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .link-noticia {
-    color: rgb(235, 0, 0);
+    color: rgb(24, 24, 24);
     font-size: 30px;
     text-decoration: none;
 }
 
 .link-noticia:hover {
-    color: rgb(103 0 0)
+    color: rgb(161, 0, 0)
 }
 
 .parrafo-por {
     color: rgb(0, 0, 0);
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     font-style: italic;
     font-size: 15px;
 }
 
 div>p>a {
-    color: rgb(180 0 0);
+    color: rgb(31, 31, 31);
+    text-decoration: none;
 }
 
 div>p>a:hover {
-    color:#7c0000;
+    color: #a90000;
 }
 
 footer {
@@ -282,21 +309,21 @@ footer {
 .footer-section a:hover {
     color: rgb(179, 0, 0);
 }
+
 .icono-contacto {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.icons {
-    width: 30px;
-    color: #7c0000;
-}
+
 svg {
     width: 30px;
     height: 30px;
 }
+
 path {
-    fill: #7c0000;
+    fill: #ffffff;
 }
+
 path:hover {
-    fill: #d8b100;
+    fill: rgb(179, 0, 0);
 }
