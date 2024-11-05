@@ -218,9 +218,11 @@ main {
     grid-template-columns: repeat(6, 1fr);
 }
 .news {
+    margin-right: 20px;
     flex-wrap: wrap;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-column-start: 6;
+    grid-template-columns: repeat(2, 1fr);
     gap: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
