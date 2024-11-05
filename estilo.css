@@ -213,14 +213,19 @@ main {
     text-align: right;
     margin-bottom: 25px;
 }
-
-.news {
+.contenedor-news {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+}
+.news {
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 12px;
+    justify-content: center;
 }
 
 .news-item {
@@ -231,8 +236,9 @@ main {
     transition: transform 0.3s ease;
     font-family: "DM Serif Text", serif;
     font-style: normal;
-    margin: 20px;
+    margin: 13px;
     border-radius: 4px;
+
 }
 
 .news-item:hover {
@@ -244,6 +250,8 @@ main {
     color: #1a1a1a;
     font-size: 12px;
     padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .news-item img {
     width: 300px;
@@ -257,12 +265,16 @@ main {
     text-align: left;
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .link-noticia {
     color: rgb(24, 24, 24);
     font-size: 30px;
     text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .link-noticia:hover {
@@ -275,6 +287,8 @@ main {
     font-weight: 600;
     font-style: italic;
     font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 div>p>a {
@@ -310,14 +324,20 @@ footer {
     color: rgb(179, 0, 0);
 }
 
-.icono-contacto {
-    display: grid;
+.icon-contenedor {
     grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+    display: grid;
+    margin-right: 25px;
 }
-
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 svg {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
 }
 
 path {
