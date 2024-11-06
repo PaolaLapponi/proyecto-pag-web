@@ -20,8 +20,6 @@ header {
     position: fixed;
     z-index: 1000;
     width: 100vw;
-
-
 }
 
 .logo-title {
@@ -198,10 +196,6 @@ main {
     font-style: italic;
 }
 
-/* #carouselExampleCaptions {
-    height: 100vw;
-} */
-
 #slide-h1-1 {
     font-size: 100px;
     color: #d8b100;
@@ -212,11 +206,19 @@ main {
     text-align: right;
     margin-bottom: 25px;
 }
+#mas-notica {
+    text-align: right;
+}
+#tamaño-mas {
+    width: 100px;
+}
+#color-mas {
+    fill: #dcdcdc;
+}
 .contenedor-news {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 }
-
 .news {
     margin-right: 20px;
     flex-wrap: wrap;
