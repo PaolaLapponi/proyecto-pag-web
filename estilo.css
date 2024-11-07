@@ -187,10 +187,13 @@ main {
 }
 
 /* //Carrousel// */
+.carousel {
+    top: 53px;
+}
 .carousel-inner,
 .carousel-item {
     width: 100vw;
-    height: 48vw;
+    height: 44vw;
 }
 
 .carousel-caption h1 {
@@ -223,9 +226,10 @@ main {
     width: 100px;
 }
 #color-mas {
-    fill: #dcdcdc;
+    fill: #ffffffa9;
 }
 .contenedor-news {
+    margin-top: 48px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 }
