@@ -125,7 +125,7 @@ nav ul li a {
 }
 
 nav ul li:hover>a {
-    background-color: #9f0000cf;
+    background-color: #a35252;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
@@ -154,7 +154,7 @@ nav ul li:hover>a {
 nav .menu-desplegable {
     display: none;
     position: absolute;
-    background-color: #9f0000cf;
+    background-color: #a35252e8;
     padding: 10px;
     top: calc(100% + 3px);
     /* Se muestra justo debajo del header */
@@ -196,7 +196,7 @@ main h1 {
     font-size: 100px;
     text-align: center;
     font-weight: 900;
-    margin-top: 60px;
+    margin-top: 100px;
     margin-right: 100px;
     margin-left: 100px;
     padding: 20px;
@@ -245,6 +245,12 @@ main h2 {
 }
 .por-entrada a {
     font-style: italic;
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 600;
+}
+.por-entrada a:hover {
+    color: #a35252;
 }
 .cita-izq {
     display: grid;
@@ -322,7 +328,7 @@ footer {
 }
 
 .footer-section a:hover {
-    color: rgb(179, 0, 0);
+    color: #fb8383;
 }
 
 .icon-contenedor {
@@ -349,5 +355,5 @@ path {
 }
 
 path:hover {
-    fill: rgb(179, 0, 0);
+    fill: #fb8383;
 }
