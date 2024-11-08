@@ -264,7 +264,7 @@ main h2 {
 .cita-izq h3 {
     padding: 25px;
     font-size: 23px;
-    background-color: #ff88a2b7;
+    background-color: #43d6b28c;
     border-top-right-radius: 12mm;
     border-bottom-right-radius: 12mm;
     border-bottom-left-radius: 12mm;
@@ -288,7 +288,7 @@ main h2 {
 .cita-der h3 {
     padding: 25px;
     font-size: 23px;
-    background-color: #ff88a2b7;
+    background-color: #43d6b28c;
     border-top-right-radius: 12mm;
     border-bottom-right-radius: 12mm;
     border-bottom-left-radius: 12mm;
@@ -303,7 +303,7 @@ hr {
     color: #dcdcdc;
     padding: 3px;
     margin-bottom: 12px;
-    background-color: #f46060fb;
+    background-color: #00b98b;
 }
 /* foooter */
 
