@@ -189,7 +189,6 @@ main {
     background-color: #dcdcdc;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: auto;
 }
 
 main h1 {
@@ -204,7 +203,6 @@ main h1 {
     display: grid;
     grid-column-start: 1;
     grid-column-end: 7;
-    grid-template-rows: auto;
 }
 
 main h2 {
@@ -215,61 +213,54 @@ main h2 {
     font-weight: 600;
     text-align: justify;
     display: grid;
-    grid-column-start: 1;
-    grid-column-end: 7;
-    grid-template-rows: auto;
+    grid-column-start: 2;
+    grid-column-end: 6;
 }
 
-main p {
+.entrada {
     font-family: 'Times New Roman', Times, serif;
     margin-top: 30px;
     margin-left: 40px;
     margin-right: 40px;
+    margin-bottom: 40px;
     font-size: 25px;
     display: grid;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-template-rows: auto;
+    grid-column-start: 2;
+    grid-column-end: 6;
     text-align: justify;
 }
-
-.contenedor-media {
-    display: grid;
-    grid-column-start: 5;
-    grid-column-end: 7;
-    margin-right: 40px;
+.entrada img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    float: left;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #3023231e;
+    border-radius: 4mm;
+}
+.por-entrada {
     margin-top: 40px;
+    font-style: italic;
+    font-size: 20px;
 }
-
-.contenedor-segundo {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+.por-entrada a {
+    font-style: italic;
 }
-.contenedor-segundo iframe {
-    margin: 8px;
-    padding: 8px;
+.cita-izq {
     display: grid;
-    border-radius: 4mm;
     grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    width: 410px;
-    height: 245px;
-    background-color: #00000017;
-    border-radius: 4mm;
+    grid-column-end: 2;
+    margin-left: 40px;
+    margin-top: 200px;
+    height: 400px;
 }
 
-.contenedor-segundo h3 {
-    display: grid;
-    grid-template-rows: auto;
-    margin-right: 40px;
-    margin-top: 30px;
+.cita-izq h3 {
     padding: 25px;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    font-size: 26px;
+    font-size: 23px;
     background-color: #ff88a2b7;
     border-top-right-radius: 12mm;
     border-bottom-right-radius: 12mm;
@@ -279,6 +270,31 @@ main p {
     font-weight: 700;
     text-align: center;
     align-content: center;
+    grid-template-rows: auto;
+}
+
+.cita-der {
+    display: grid;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    margin-right: 40px;
+    margin-top: -150px;
+    height: 400px;
+}
+
+.cita-der h3 {
+    padding: 25px;
+    font-size: 23px;
+    background-color: #ff88a2b7;
+    border-top-right-radius: 12mm;
+    border-bottom-right-radius: 12mm;
+    border-bottom-left-radius: 12mm;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    align-content: center;
+    grid-template-rows: auto;
 }
 
 /* foooter */
