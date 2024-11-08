@@ -210,6 +210,7 @@ main h2 {
     margin-top: 30px;
     margin-left: 40px;
     margin-right: 40px;
+    margin-bottom: 40px;
     font-weight: 600;
     text-align: justify;
     display: grid;
@@ -219,10 +220,9 @@ main h2 {
 
 .entrada {
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-left: 40px;
     margin-right: 40px;
-    margin-bottom: 40px;
     font-size: 25px;
     display: grid;
     grid-column-start: 2;
@@ -233,10 +233,6 @@ main h2 {
     width: 300px;
     height: 300px;
     object-fit: cover;
-    float: left;
-    margin-top: 15px;
-    margin-right: 20px;
-    margin-bottom: 10px;
     padding: 5px;
     background-color: #3023231e;
     border-radius: 4mm;
@@ -245,6 +241,7 @@ main h2 {
     margin-top: 40px;
     font-style: italic;
     font-size: 20px;
+    margin-bottom: 40px;
 }
 .por-entrada a {
     font-style: italic;
@@ -255,7 +252,7 @@ main h2 {
     grid-column-end: 2;
     margin-left: 40px;
     margin-top: 200px;
-    height: 400px;
+    height: min-content;
 }
 
 .cita-izq h3 {
@@ -279,7 +276,7 @@ main h2 {
     grid-column-end: 7;
     margin-right: 40px;
     margin-top: -150px;
-    height: 400px;
+    height: min-content;
 }
 
 .cita-der h3 {
@@ -296,7 +293,12 @@ main h2 {
     align-content: center;
     grid-template-rows: auto;
 }
-
+hr {
+    color: #dcdcdc;
+    padding: 3px;
+    margin-bottom: 12px;
+    background-color: #f46060fb;
+}
 /* foooter */
 
 footer {
