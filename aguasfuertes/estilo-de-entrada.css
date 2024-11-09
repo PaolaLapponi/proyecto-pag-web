@@ -74,7 +74,7 @@ header a h1:hover {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #7c0000;
+    background-color: #3ab685;
     padding: 10px;
     z-index: 1;
 }
@@ -91,7 +91,7 @@ header a h1:hover {
 .search-bar button {
     padding: 3px 20px;
     border: none;
-    background-color: #5a0000;
+    background-color: #005a30;
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -122,12 +122,14 @@ nav ul li a {
     padding-right: 30px;
     font-size: 15px;
     transition: background-color 0.3s ease;
+    border-radius: 4mm;
 }
 
 nav ul li:hover>a {
-    background-color: #a35252;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    background-color: #1f8a5d;
+    border-radius: 4mm;
+    /* border-top-left-radius: 3px;
+    border-top-right-radius: 3px; */
 }
 
 #seccion1 {
@@ -151,14 +153,14 @@ nav ul li:hover>a {
 }
 
 /* Menú desplegable */
-nav .menu-desplegable {
+/* nav .menu-desplegable {
     display: none;
     position: absolute;
     background-color: #a35252e8;
     padding: 10px;
-    top: calc(100% + 3px);
+    top: calc(100% + 3px); */
     /* Se muestra justo debajo del header */
-    width: 157px;
+    /* width: 157px;
     z-index: 1;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -166,9 +168,9 @@ nav .menu-desplegable {
 
 nav ul li:hover .menu-desplegable {
     display: block;
-}
+} */
 
-nav .menu-desplegable li a {
+/* nav .menu-desplegable li a {
     color: white;
     padding-left: 10px;
     padding-right: 10px;
@@ -182,7 +184,7 @@ nav .menu-desplegable li a {
 nav .menu-desplegable li a:hover {
     background-color: #141313ae;
     border-radius: 3px;
-}
+} */
 
 main {
     height: 100%;
@@ -238,10 +240,11 @@ main h2 {
     border-radius: 4mm;
 }
 .por-entrada {
-    margin-top: 40px;
+    margin-top: 60px;
     font-style: italic;
     font-size: 20px;
     margin-bottom: 40px;
+    text-align: right;
 }
 .por-entrada a {
     font-style: italic;
@@ -250,14 +253,13 @@ main h2 {
     font-weight: 600;
 }
 .por-entrada a:hover {
-    color: #a35252;
+    color: #247d55;
 }
 .cita-izq {
     display: grid;
     grid-column-start: 1;
     grid-column-end: 2;
     margin-left: 40px;
-    margin-top: 200px;
     height: min-content;
 }
 
@@ -281,7 +283,6 @@ main h2 {
     grid-column-start: 6;
     grid-column-end: 7;
     margin-right: 40px;
-    margin-top: -150px;
     height: min-content;
 }
 
@@ -328,7 +329,7 @@ footer {
 }
 
 .footer-section a:hover {
-    color: #fb8383;
+    color: #40c88f;
 }
 
 .icon-contenedor {
@@ -355,5 +356,5 @@ path {
 }
 
 path:hover {
-    fill: #fb8383;
+    fill: #40c88f;
 }
