@@ -242,9 +242,10 @@ main {
 .etiqueta-contenedor {
     display: grid;
     position: relative;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: -10px;
-    margin-bottom: 92px;
+    margin-bottom: 70px;
+    z-index: 2;
     
 }
 
@@ -267,6 +268,7 @@ main {
     margin-top: 48px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    margin-left: 10px;
 }
 
 .news {
