@@ -232,7 +232,7 @@ main {
 }
 
 #tamaño-mas {
-    width: 50px;
+    width: 30px;
 }
 
 #color-mas {
@@ -240,19 +240,27 @@ main {
 }
 
 .etiqueta-contenedor {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    position: relative;
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-bottom: 92px;
+    
 }
 
 #etiqueta-destacada {
+    position: absolute;
+    color: #333;
+    padding: 10px;
     width: 500px;
 }
 
 .etiqueta-contenedor h2 {
     position: absolute;
-    top: 8px;
-    left: 16px;
+    top: 25px;
+    left: 80px;
+    font-size: 65px;
+    font-family: "DM Serif Text", serif;
 }
 
 .contenedor-news {
@@ -283,6 +291,7 @@ main {
     margin-top: 30px;
     margin-bottom: 20px;
     margin-left: 15px;
+    z-index: 1;
 }
 
 .contendor-media-noticia {
@@ -608,10 +617,11 @@ p {
     cursor: pointer;
     padding: 5px;
 }
+
 .color-redes {
     fill: #ffffff;
 }
 
 .color-redes:hover {
     fill: rgb(179, 0, 0);
-} 
+}
