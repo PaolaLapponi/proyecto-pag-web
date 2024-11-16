@@ -24,10 +24,11 @@ main {
 
 .carousel-caption p {
     font-size: 50px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     font-style: italic;
+    margin-bottom: 50px;
 }
 
 #slide-h1-1 {
@@ -38,7 +39,6 @@ main {
 #slide-p-1 {
     color: #d8b100;
     text-align: right;
-    margin-bottom: 25px;
 }
 
 #mas-notica {
@@ -46,7 +46,8 @@ main {
 }
 
 #tamaño-mas {
-    width: 30px;
+    margin-bottom: 15px;
+    width: 25px;
 }
 
 #color-mas {
