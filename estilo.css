@@ -58,7 +58,7 @@ main {
     display: grid;
     position: relative;
     margin-top: 40px;
-    margin-left: -10px;
+    margin-left: -5px;
     margin-bottom: 70px;
     z-index: 2;
     
@@ -68,14 +68,14 @@ main {
     position: absolute;
     color: #333;
     padding: 10px;
-    width: 500px;
+    width: 400px;
 }
 
 .etiqueta-contenedor h2 {
     position: absolute;
-    top: 25px;
-    left: 80px;
-    font-size: 65px;
+    top: 20px;
+    left: 55px;
+    font-size: 55px;
     font-family: "DM Serif Text", serif;
 }
 
@@ -83,7 +83,7 @@ main {
     margin-top: 48px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .news {
