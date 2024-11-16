@@ -59,10 +59,10 @@ main {
     grid-column-start: 1;
     grid-column-end: 6;
     position: relative;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-left: -5px;
     margin-bottom: 70px;
-    z-index: 2;
+    background-color: rgb(140 185 170);
 }
 
 #etiqueta-destacada {
@@ -116,7 +116,7 @@ main {
     padding: 10px;
     border-radius: 4px;
     background-color: #cdcdcd;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .etiqueta-distintiva-media {
