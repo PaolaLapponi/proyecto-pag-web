@@ -76,16 +76,18 @@ main {
 
 #cartel-destacadas {
     position: absolute;
-    width: 350px;
+    width: 800px;
     fill: #15241d;
     z-index: 0;
+    margin-left: 312px;
+
 }
 
 .etiqueta-contenedor h2 {
     position: absolute;
-    font-size: 50px;
+    font-size: 70px;
     font-family: "DM Serif Text", serif;
-    margin-left: -40px;
+    margin-left: 150px;
     color: #D5DDE5;
 }
 
