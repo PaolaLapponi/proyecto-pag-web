@@ -3,22 +3,81 @@ main {
     display: grid;
     background-color: #dcdcdc;
 }
-
 .contenido-aguasfuertes {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 40px;
     margin-right: 10px;
-    margin-left: 10px;  
+    margin-left: 10px;
     width: 97.3vw;
 }
+.title-seccion {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    background-color: #dcdcdc;
+    align-items: center;
+    justify-content: center;
+}
+#etiqueta-seccion {
+    fill: #15241d;
+    width: 1000px;
+    height: 200px;
+    position: absolute;
+    
+}
+.seccion-entrada {
+    font-family: "DM Serif Display", serif;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    color: #dcdcdc;
+    z-index: 1;
+}
+
 .contenedor-card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-start: 1;
     grid-column-end: 4;
 }
+
 .card {
     display: grid;
     margin: 5px;
+}
+
+.card-title {
+    font-family: "DM Serif Display", serif;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+.card-for {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+.card-for a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.card-for a:hover {
+    color: #198754;
+}
+.card-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-date {
+    font-family: system-ui,'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
 }
