@@ -1,7 +1,24 @@
 main {
+    width: 100vw;
     display: grid;
-    justify-content: center;
-    align-items: center;
-    height: 100vw;
     background-color: #dcdcdc;
+}
+
+.contenido-aguasfuertes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 10px;  
+    width: 97.3vw;
+}
+.contenedor-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.card {
+    display: grid;
+    margin: 5px;
 }
