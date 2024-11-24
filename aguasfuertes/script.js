@@ -13,9 +13,18 @@ function search() {
     alert('Buscando: ' + query);
 }
 
+//carrousel vertical//
 
-//carousel vertical//
+function setupCarousel(carouselId, slideHeight, slideCount, interval) {
+    const slides = document.getElementById(carouselId);
+    let currentIndex = 0;
 
-const slides = document.querySelector('.carousel-slides');
-const slideCount = 3;
-let currentIndex = 0;
+    setInterval(() => {
+        currentIndex = (currentIndex + 1) % slideCount;
+        slides.style.transform = `translateY(-${currentIndex * slideHeight}px)`;
+    }, interval);
+}
+
+// Configurar carruseles
+setupCarousel('carousel1', 1000, 3, 3000); // Carrusel 1
+setupCarousel('carousel2', 1000, 3, 3000); // Carrusel 2

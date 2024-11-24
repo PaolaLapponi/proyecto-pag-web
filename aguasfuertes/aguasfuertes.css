@@ -115,27 +115,22 @@ main {
 }
 .carousel-container {
     width: 200px;
-    height: 800px;
+    height: 1000px;
     overflow: hidden;
     position: relative;
     border: 2px solid #ccc;
     border-radius: 10px;
 }
-.carousel-slides-1 {
+.carousel-slides {
     display: flex;
-    width: calc(500px * 3);
-    height: 800px;
-    transition: transform 0.5s ease-in-out;
-}
-.carousel-slides-2 {
-    display: flex;
-    width: calc(500px * 3);
-    height: 800px;
+    flex-direction: column;
+    height: calc(1000px * 3);
+    width: 200px;
     transition: transform 0.5s ease-in-out;
 }
 .carousel-slide {
-    width: 500px;
-    height: 800px;
+    width: 200px;
+    height: 1000px;
 }
 .carousel-slide img {
     width: 100%;
