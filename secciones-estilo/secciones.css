@@ -51,7 +51,9 @@ main {
 }
 .tipo-de-entrada {
     text-align: right;
+    margin-top: -5px;
     margin-bottom: 5px;
+    margin-right: 5px;
 }
 .tipo-de-entrada-link {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
