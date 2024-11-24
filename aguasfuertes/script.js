@@ -13,3 +13,9 @@ function search() {
     alert('Buscando: ' + query);
 }
 
+
+//carousel vertical//
+
+const slides = document.querySelector('.carousel-slides');
+const slideCount = 3;
+let currentIndex = 0;

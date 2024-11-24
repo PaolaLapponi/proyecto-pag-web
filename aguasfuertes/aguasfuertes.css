@@ -5,7 +5,7 @@ main {
 }
 .contenido-aguasfuertes {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     margin-top: 40px;
     margin-right: 10px;
     margin-left: 10px;
@@ -15,7 +15,7 @@ main {
 .title-seccion {
     display: flex;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 7;
     text-align: center;
     background-color: #ffffff;
     align-items: center;
@@ -25,8 +25,7 @@ main {
 }
 #etiqueta-seccion {
     fill: #15241d;
-    width: 1000px;
-    height: 200px;
+    width: max-content;
     position: absolute;
     
 }
@@ -42,25 +41,18 @@ main {
 .contenedor-card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 6;
 }
 
 .card {
     display: grid;
-    margin: 5px;
+    margin: 5px 5px 20px;
     background-color: #d8d8d8;
-}
-
-.card-title {
-    font-family: "DM Serif Display", serif;
-    font-size: 40px;
-    font-weight: 400;
-    font-style: normal;
 }
 .tipo-de-entrada {
     text-align: right;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .tipo-de-entrada-link {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -68,6 +60,19 @@ main {
     font-size: 13px;
     color: #15241d;
     text-align: center;
+}
+.card-title {
+    font-family: "DM Serif Display", serif;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+.card-title a {
+    text-decoration: none;
+    color: #15241d;
+}
+.card-title a:hover {
+    color: #198754;
 }
 .card-for {
     font-family: 'Times New Roman', Times, serif;
@@ -95,4 +100,45 @@ main {
     font-family: system-ui,'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 12px;
     margin-top: 10px;
+}
+.contenido-slider-1 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-right: 5px;
+}
+.contenido-slider-2 {
+    display: grid;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    margin-left: 5px;
+}
+.carousel-container {
+    width: 200px;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+.carousel-slides-1 {
+    display: flex;
+    width: calc(500px * 3);
+    height: 800px;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-slides-2 {
+    display: flex;
+    width: calc(500px * 3);
+    height: 800px;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-slide {
+    width: 500px;
+    height: 800px;
+}
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
