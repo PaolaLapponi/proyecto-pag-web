@@ -46,7 +46,6 @@ main {
 }
 
 .card {
-    display: grid;
     margin: 5px 5px 20px;
     background-color: #d8d8d8;
 }
@@ -102,35 +101,31 @@ main {
     margin-top: 10px;
 }
 .contenido-slider-1 {
+    margin-top: 4px;
+    margin-bottom: 20px;
     display: grid;
     grid-column-start: 1;
     grid-column-end: 2;
     margin-right: 5px;
 }
-.contenido-slider-2 {
-    display: grid;
-    grid-column-start: 6;
-    grid-column-end: 7;
-    margin-left: 5px;
-}
 .carousel-container {
     width: 200px;
-    height: 1000px;
+    height: 1400px;
     overflow: hidden;
     position: relative;
     border: 2px solid #ccc;
     border-radius: 10px;
 }
 .carousel-slides {
-    display: flex;
+    display:flex;
     flex-direction: column;
-    height: calc(1000px * 3);
+    height: calc(1400px * 3);
     width: 200px;
     transition: transform 0.5s ease-in-out;
 }
 .carousel-slide {
     width: 200px;
-    height: 1000px;
+    height: 1400px;
 }
 .carousel-slide img {
     width: 100%;
