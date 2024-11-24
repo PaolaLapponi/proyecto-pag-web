@@ -100,7 +100,7 @@ main {
 .card-date {
     font-family: system-ui,'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 12px;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 .card-img-bottom {
     object-fit: cover;
