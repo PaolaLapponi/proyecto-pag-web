@@ -5,11 +5,11 @@ main {
 
 .contenedor {
     width: 100vw;
-    height: 43vw;
+    height: 45vw;
 }
 .contenido{
     width: 100vw;
-    height: 43vw;
+    height: 45vw;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
@@ -18,7 +18,7 @@ main {
 .contenido img {
     position: absolute;
     width: 100vw;
-    height: 43vw;;
+    height: 45vw;;
     object-fit: cover;
 }
 .titulo-contacto {
@@ -34,15 +34,19 @@ main {
 .titulo-contacto h1{
     display: grid;
     z-index: 1;
-    color: antiquewhite;
+    color: #ffffff;
     justify-items: center;
     align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 600;
 }
 .descripcion-contacto {
     display: grid;
     grid-template-columns: auto;
     grid-column-start: 3;
     grid-column-end: 5;
+    
 }
 .descripcion-contacto h3{
     display: flex;
@@ -51,5 +55,15 @@ main {
     text-align: right;
     font-size: 20px;
     margin: 20px;
-    padding: 20px
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+}
+.descripcion-contacto hr {
+    color: #dcdcdc;
+    padding: 5px;
+    background-color: #00b98b;
+    margin-left: 10px;
 }
