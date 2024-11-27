@@ -59,7 +59,18 @@ header a h1 {
 header a h1:hover {
     color: white;
 }
-
+.suscripcion-icono {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    padding: 5px;
+}
+.suscripcion-color {
+    fill: #ffffff;
+}
+.suscripcion-color:hover{
+    fill: #40c88f;
+}
 .search-icon {
     justify-self: right;
     font-size: 1.3rem;
