@@ -28,9 +28,11 @@ main {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
     transition: none;
   h2 {
-    font-size: 1.5em;
-    line-height: 1.5em;
+    font-size: 30px;
+    line-height: 20px;
     margin: 0;
+    font-family: sans-serif;
+    font-weight: 600;
   }
   .title_container {
     text-align: center;
@@ -43,7 +45,8 @@ main {
     margin: 0;
   }
     label {
-        font-size: 12px;
+        font-size: 14px;
+        font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     }
   .row {
     margin: 10px -15px;
