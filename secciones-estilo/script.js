@@ -25,5 +25,5 @@ function setupCarousel(carouselId, slideHeight, slideCount, interval) {
     }, interval);
 }
 
-// Configurar carruseles
-setupCarousel('carousel1', 1400, 3, 3000); // Carrusel 1
+// // Configurar carruseles
+// setupCarousel('carousel1', 1400, 3, 3000); // Carrusel 1
