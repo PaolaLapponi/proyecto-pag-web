@@ -22,7 +22,7 @@ main {
   margin: 8% auto 0;
   position: relative;
   z-index: 1;
-  border-top: 5px solid #00b65c;
+  border-top: 5px solid #3fb483;
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
@@ -96,11 +96,11 @@ main {
       background: #fafafa;
     }
     &[type="text"]:focus, &[type="email"]:focus, &[type="password"]:focus {
-      border: 1px solid #03a14d;
+      border: 1px solid #1f8a5d;
       background: #fafafa;
     }
     &[type="submit"] {
-    background: rgb(1, 150, 73);
+    background: #1f8a5d;
     height: 35px;
     line-height: 35px;
     width: 100%;
