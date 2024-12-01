@@ -24,6 +24,3 @@ function setupCarousel(carouselId, slideHeight, slideCount, interval) {
         slides.style.transform = `translateY(-${currentIndex * slideHeight}px)`;
     }, interval);
 }
-
-// // Configurar carruseles
-// setupCarousel('carousel1', 1400, 3, 3000); // Carrusel 1
