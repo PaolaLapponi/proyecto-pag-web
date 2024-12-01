@@ -1,6 +1,6 @@
 
 main {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: system-ui, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 14px;
   background: #f2f2f2;
 }
@@ -31,7 +31,7 @@ main {
     font-size: 30px;
     line-height: 20px;
     margin: 0;
-    font-family: sans-serif;
+    font-family: "DM Serif Text", serif;
     font-weight: 600;
   }
   .title_container {
@@ -108,15 +108,9 @@ main {
     outline: none;
     cursor: pointer;
     color: #fff;
-    font-size: 1.1em;
+    font-size: 20px;
     margin-bottom: 10px;
-    &:hover {
-      background: darken(#03a14d,7%);
-    }
-    &:focus {
-      background: darken(#03a14d,7%);
-    }
-  }
+    font-family: "DM Serif Text", serif;
   }
 }
 .form_container {
